@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/async_sample"
+        android:icon="@drawable/ic_view_timeline_24"
+        android:title="async" />
+
+    <item
+        android:id="@+id/error_sample"
+        android:icon="@drawable/ic_error_24"
+        android:title="error" />
+
+</menu>

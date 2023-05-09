@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/async_sample">
+
+    <fragment
+        android:id="@+id/async_sample"
+        android:name="com.ebatashota.coroutineasync.fragment.AsyncSampleFragment"
+        android:label="AsyncSample" />
+
+    <fragment
+        android:id="@+id/error_sample"
+        android:name="com.ebatashota.coroutineasync.fragment.ErrorSampleFragment"
+        android:label="ErrorSample" />
+</navigation>
